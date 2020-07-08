@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Oxana - SEO / Marketing HTML Template</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+
+  <body>
+    
+    <!-- Preloader -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="content">
+        <img src="images/logo-icon.png" alt="">
+      </div>
+      <div class="preloader-inner">
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav-wrapper">
+      <div class="mobile-menu-inner">
+        <ul class="mobile-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="has-sub"><a href="#">Pages <i class="sub-icon fa fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="our-team.html">Our Team</a></li>
+              <li><a href="pricing-plans.html">Pricing Plans</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="error-page.html">404 Error Page</a></li>
+              <li><a href="page-headings.html">Page Headings</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="#">Portfolio <i class="sub-icon fa fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li><a href="portfolio-v1.html">Portfolio Version 1</a></li>
+              <li><a href="portfolio-v2.html">Portfolio Version 2</a></li>
+              <li><a href="portfolio-v3.html">Portfolio Version 3</a></li>
+              <li><a href="single-project.html">Single Project</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="#">Blog Entries <i class="sub-icon fa fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li><a href="blog-v1.html">Blog Version 1</a></li>
+              <li><a href="blog-v2.html">Blog Version 2</a></li>
+              <li><a href="blog-v3.html">Blog Version 3</a></li>
+              <li><a href="single-post.html">Single Post</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="#">Shop <i class="sub-icon fa fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li><a href="our-shop.html">Our Products</a></li>
+              <li><a href="single-product.html">Single Product</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+
+    <!-- Header -->
+    <header class="site-header fixed-header">
+      <div class="container expanded">
+        <div class="header-wrap">
+          <div class="fixed-header-logo">
+            <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+          </div>
+          <div class="is-fixed-header-logo">
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+          </div>
+          <div class="header-nav">
+              <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li class="menu-item-has-children"><a href="#">Pages</a>
+                  <ul class="sub-menu">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="our-team.html">Our Team</a></li>
+                    <li><a href="pricing-plans.html">Pricing Plans</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="error-page.html">404 Error Page</a></li>
+                    <li><a href="page-headings.html">Page Headings</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Portfolio</a>
+                  <ul class="sub-menu">
+                    <li><a href="portfolio-v1.html">Portfolio Version 1</a></li>
+                    <li><a href="portfolio-v2.html">Portfolio Version 2</a></li>
+                    <li><a href="portfolio-v3.html">Portfolio Version 3</a></li>
+                    <li><a href="single-project.html">Single Project</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Blog Entries</a>
+                  <ul class="sub-menu">
+                    <li><a href="blog-v1.html">Blog Version 1</a></li>
+                    <li><a href="blog-v2.html">Blog Version 2</a></li>
+                    <li><a href="blog-v3.html">Blog Version 3</a></li>
+                    <li><a href="single-post.html">Single Post</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Shop</a>
+                  <ul class="sub-menu">
+                    <li><a href="our-shop.html">Our Products</a></li>
+                    <li><a href="single-product.html">Single Product</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>    
+          </div>
+          <div class="header-widgets">
+            <ul class="right-menu">
+              <li class="menu-item menu-search">
+                <a href="#search" id="menu-search-btn">
+                  <i class="fa fa-search"></i>
+                </a>
+              </li>
+              <li class="menu-item free-quote">
+                <div class="main-pink-button">
+                  <a href="#">Get Free Quote</a>
+                </div>
+              </li>
+              <li class="menu-item menu-mobile-nav">
+                <a href="#" class="menu-bar" id="menu-show-mobile-nav">
+                  <span class="hamburger"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+    
+    <!-- Search -->
+    <div id="search">
+      <button type="button" class="close">×</button>
+        <form>
+            <input type="search" value="" placeholder="Type to search..." required="">
+            <button type="submit" class="primary-button"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    
+
+    <div class="main-content">
+      
+      <!-- Page Heading -->
+      <div class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Our Team</h1>
+              <span><a href="index.html">Home</a>Our Team</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Steps -->
+      <section class="steps">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="step-item">
+                <div class="item-number">
+                  <h6>01</h6>
+                </div>
+                <div class="item-content">
+                  <h4>First Step</h4>
+                  <p>Shaman synthes retro slow carb vape twee, put a bird.</p>
+                </div>
+                <div class="item-arrow">
+                  <i class="fa fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="step-item">
+                <div class="item-number">
+                  <h6>02</h6>
+                </div>
+                <div class="item-content">
+                  <h4>Second Step</h4>
+                  <p>Shaman synthes retro slow carb vape twee, put a bird.</p>
+                </div>
+                <div class="item-arrow">
+                  <i class="fa fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="step-item">
+                <div class="item-number">
+                  <h6>03</h6>
+                </div>
+                <div class="item-content">
+                  <h4>Third Step</h4>
+                  <p>Shaman synthes retro slow carb vape twee, put a bird.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- About Tips -->
+      <section class="about-tips our-team-page">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="video-thumb">
+                <a href="http://youtube.com"><i class="fa fa-play"></i></a>
+                <img src="images/video-thumb.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="section-heading">
+                <h6>TIPS FOR YOU!</h6>
+                <h2>Get Tips &amp; Tricks About How To Grow Your Business!</h2>
+              </div>
+              <p>Taiyaki single-origin coffee iceland, skateboard chambray 3 wolf moon vice marfa hammock. Man braid prism post-ironic kickstarter affogato. 3 wolf moon succulents quinoa, keffiyeh keytar swag woke cliche cold-pressed drinking vinegar. Squid blue bottle farm-to-table hammock palo santo pug. Banjo af affogato, typewriter franzen biodiesel bitters poke  bespoke.<br><br>Cronut chillwave dreamcatcher, franzen lomo poutine gluten-free four loko. Offal locavore selvage scenester fixie crucifix tbh DIY mlkshk vice iceland meh taxidermy. Fixie hell of ethical air plant aesthetic.</p>
+              <div class="main-pink-button">
+                <a href="services.html">All Our Services</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Our Team -->
+      <section class="our-team">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-heading">
+                <h6>Our Team</h6>
+                <h2>Meet Our Members</h2>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="team-item">
+                <div class="team-thumb">
+                  <div class="hover-effect">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="http://placehold.it/270x245" alt="">
+                </div>
+                <div class="down-content">
+                  <h4>Donald K. Huff</h4>
+                  <span>Main Director</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="team-item">
+                <div class="team-thumb">
+                  <div class="hover-effect">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="http://placehold.it/270x245" alt="">
+                </div>
+                <div class="down-content">
+                  <h4>Linda D. Bellows</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="team-item">
+                <div class="team-thumb">
+                  <div class="hover-effect">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="http://placehold.it/270x245" alt="">
+                </div>
+                <div class="down-content">
+                  <h4>Catherine M. Cole</h4>
+                  <span>Creative Director</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="team-item">
+                <div class="team-thumb">
+                  <div class="hover-effect">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="http://placehold.it/270x245" alt="">
+                </div>
+                <div class="down-content">
+                  <h4>David S. Scott</h4>
+                  <span>General Manager</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="team-item">
+                <div class="team-thumb">
+                  <div class="hover-effect">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="http://placehold.it/270x245" alt="">
+                </div>
+                <div class="down-content">
+                  <h4>Linda D. Bellows</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="team-item">
+                <div class="team-thumb">
+                  <div class="hover-effect">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="http://placehold.it/270x245" alt="">
+                </div>
+                <div class="down-content">
+                  <h4>Catherine M. Cole</h4>
+                  <span>Creative Director</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="team-item">
+                <div class="team-thumb">
+                  <div class="hover-effect">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="http://placehold.it/270x245" alt="">
+                </div>
+                <div class="down-content">
+                  <h4>Donald K. Huff</h4>
+                  <span>Main Director</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="hiring-space">
+                <h2>We Are Hiring!<br>Join Us!</h2>
+                <div class="main-white-button">
+                  <a href="#">Submit Resume Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- Fun Facts -->
+      <section class="fun-facts">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="count-area-content">
+                <div class="count-digit first-digit">4860</div>
+                <div class="count-title">Hours Worked</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="count-area-content">
+                <div class="count-digit second-digit">120</div>
+                <div class="count-title">Projects completed</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="count-area-content">
+                <div class="count-digit third-digit">460</div>
+                <div class="count-title">happy clients</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="count-area-content">
+                <div class="count-digit fourth-digit">11</div>
+                <div class="count-title">awards won</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>     
+
+    </div>
+    
+
+    <section class="footer-content">
+      <div class="cta-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <h2>We Are Hiring!<br>Interested to <em>work</em> with us?</h2>
+            </div>
+            <div class="col-lg-4">
+              <div class="main-white-button">
+                <a href="#">Send Resume Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-heading">
+                <h4>Oxana</h4>
+              </div>
+              <p class="about-oxana">Shaman synth retro slow-carb. Vape taxidermy twee, put a bird on it fran xezen celiac unicorn gerstache coloring book.</p>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-heading">
+                <h4>Useful Links</h4>
+              </div>
+              <ul class="useful-links">
+                <li><a href="#">About Oxana</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+              <ul class="useful-links">
+                <li><a href="#">Recent Posts</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQ’s</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-heading">
+                <h4>Get In Touch!</h4>
+              </div>
+              <ul class="more-info">
+                <li>Email: <a href="#">contact@oxana.com</a></li>
+                <li>Phone: <a href="#">+1 547 6877 534</a></li>
+                <li>Address: <a href="#">342 Better Street Peculiar, KS 64078</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-heading">
+                <h4>Find Us</h4>
+              </div>
+              <p>Shaman synth retro slow-carb. Vape taxidermy twee, put a bird.</p>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-12">
+              <div class="sub-footer">
+                <p>Copyright © 2020 <a href="#">Robert Imeri</a>. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+    <!-- Go To Top -->
+    <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- Scripts -->
+    <script src="scripts/vendors/jquery-3.4.1.min.js"></script>
+    <script src="scripts/vendors/jquery.hoverIntent.min.js"></script>
+    <script src="scripts/vendors/perfect-scrollbar.min.js"></script>
+    <script src="scripts/vendors/jquery.easing.min.js"></script>
+    <script src="scripts/vendors/wow.min.js"></script>
+    <script src="scripts/vendors/parallax.min.js"></script>
+    <script src="scripts/vendors/isotope.min.js"></script>
+    <script src="scripts/vendors/imagesloaded.pkgd.min.js"></script>
+    <script src="scripts/vendors/packery-mode.pkgd.min.js"></script>
+    <script src="scripts/vendors/owl-carousel.min.js"></script>
+    <script src="scripts/vendors/jquery.appear.js"></script>
+    <script src="scripts/vendors/jquery.countTo.js"></script>
+    <script src="scripts/vendors/slide-nav.min.js"></script>
+    <script src="scripts/vendors/accordions.js"></script>
+    <script src="scripts/main.js"></script>
+    
+
+  </body>
+</html>
