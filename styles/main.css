@@ -4547,11 +4547,12 @@ section.footer-content .cta-footer .main-white-button {
   }
 }
 section.footer-content .main-footer {
-  padding: 20px 0px 40px 0px;
-  background-image: url(../images/footer-bg.jpg);
+  padding: 5px 0px 40px 0px;
+  background-color: #6042d4;
+  /* background-image: url(../images/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
 }
 @media (min-width: 992px) {
   section.footer-content .main-footer {
@@ -6274,7 +6275,7 @@ section.pricing-plans .plan-item .top-content h2:before {
   left: 0;
   top: -12px;
   position: relative;
-  content: "$";
+  content: "Php";
   margin-right: 5px;
 }
 section.pricing-plans .plan-item .top-content span {
